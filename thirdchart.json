@@ -1,0 +1,16 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "fontsize": 16,
+    "text": "British GDP Growth",
+    "subtitle": ["QoQ4 % Growth", "Source: ONS via ECO-API"]
+  },
+  "width": 600,
+  "height": 300,
+  "data": {"url": "https://api.economicsobservatory.com/gbr/grow?vega"},
+  "mark": {"type": "area", "color": "maroon"},
+  "encoding": {
+    "x": {"field": "date", "type": "temporal", "axis": {"labelFontSize": 12}}, 
+    "y": {"field": "value", "type": "quantitative", "title": null, "axis": {"labelFontSize": 12}}
+  }
+}
