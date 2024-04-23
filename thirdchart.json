@@ -10,7 +10,7 @@
   "data": {"url": "https://api.economicsobservatory.com/gbr/grow?vega"},
   "mark": {"type": "area", "color": "maroon"},
   "encoding": {
-    "x": {"field": "date", "type": "temporal", "axis": {"labelFontSize": 12}}, 
+    "x": {"field": "date", "type": "temporal", "axis": {"labelFontSize": 12}, "axis": {"title":null}}, 
     "y": {"field": "value", "type": "quantitative", "title": null, "axis": {"labelFontSize": 12}}
   }
 }
