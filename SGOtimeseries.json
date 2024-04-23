@@ -1,0 +1,17 @@
+{"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+    "data": {
+       "url": "https://raw.githubusercontent.com/seanlenny/seanlenny.github.io/main/SGOdata.csv"},
+
+    "title": {"text": "SGO PLAC 2019 - 2023"},
+
+    "width":300,
+    "height":300,
+
+    "mark":{"type": "line","color":"red"},
+ 
+    "encoding": {
+      "x": {"field": "year","type": "temporal", "title":null},
+      "y": {"field": "number","type": "quantitative", "title":null}
+    }
+}
